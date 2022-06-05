@@ -14,3 +14,9 @@ I was born and live in Belarus, Minsk. I will get a bachelor's degree at the Ins
 3. Git, GitHub
 4. Gulp, Bootstrap
 5. Adobe XD, Figma
+
+## Languages
+1. English - Upper-intermediate
+2. Russian - Native
+3. Belarusian - Native
+4. Italian - Beginner
