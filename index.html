@@ -1,1 +1,107 @@
-
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer">
+  <link rel="stylesheet" href="./style.css">
+  <title>CV</title>
+</head>
+<body>
+  <div>
+  <header>
+    <nav class="navbar">
+      <a href="#" class="navbar_icon">Contacts</a>
+      <a href="#" class="navbar_icon">Skills</a>
+      <a href="#" class="navbar_icon">About</a>
+      <a href="#" class="navbar_icon">Code</a>
+      <a href="#" class="navbar_icon">Projects</a>
+    </nav>
+  </header>
+  <main>
+    <section class="left">
+      <div class="left-img">
+      <img src="images/000048.JPG" alt="Marharyta Nemahai">
+      <h1>Marharyta Nemahai</h1>
+    </div>
+    <div class="contacts">
+      <h2>Contacts</h2>
+      <ul>
+        <li><i class="fa-solid fa-envelope"></i>nemohaymargarita@gmail.com</li>
+        <li><i class="fa-solid fa-phone"></i>+375296222522</li>
+        <li><i class="fa-brands fa-discord"></i>Discord: damnmrg</li>
+        <li><i class="fa-solid fa-location-dot"></i>Belarus, Minsk</li>
+      </ul>
+    </div>
+    <hr>
+    <div class="skills">
+      <h2><i class="fa-solid fa-gears"></i>Skills and Proficiency</h2>
+      <ul class="skills_list">
+        <li><p>HTML</p><progress max="100" value="90"></progress></li>
+        <li><p>CSS</p><progress max="100" value="80"></progress></li>
+        <li><p>JavaScript</p><progress max="100" value="30"></progress></li>
+        <li><p>Git</p><progress max="100" value="70"></progress></li>
+        <li><p>Figma</p><progress max="100" value="80"></progress></li>
+      </ul>
+    </div>
+    <div class="languages">
+      <h2><i class="fa-solid fa-language"></i>Languages</h2>
+      <ul class="languages_list">
+        <li><p>Belarussian</p><progress max="100" value="100"></progress></li>
+        <li><p>Russian</p><progress max="100" value="100"></progress></li>
+        <li><p>English</p><progress max="100" value="70"></progress></li>
+        <li><p>Italian</p><progress max="100" value="30"></progress></li>
+      </ul>
+    </div>
+    </section>
+    <section class="right">
+      <div class="about">
+        <h2>About me</h2>
+        <p>I was born and live in Belarus, Minsk. I am a graduate of Institute of Parliamentarism and Entrepreneurship. My specialty is political science. Graduated from the front-end developer <a href="./images/000341.pdf">SkillUp courses</a> in September 2021.</p>
+        <p>I am an easy learner and love to work in a team. I also like to learn something new, and in my free time I do yoga.</p>
+      </div>
+      <hr>
+      <div class="projecs">
+        <h2>Projects</h2>
+        <ul>
+          <li><a href="https://damnmrg.github.io/grid-template-init-project/">Grid template project</a></li>
+          <li><a href="https://damnmrg.github.io/js-slide/">JavaScript slider</a></li>
+        </ul>
+      </div>
+      <hr>
+      <div class="education">
+        <h2>Education</h2>
+        <ul>
+          <li>Institute of Parliamentarism and Entrepreneurship 2017-2022</li>
+          <li>SkillUp Front-End courses 2021</li>
+          <li>RS School Front-End 2022</li>
+        </ul>
+      </div>
+      <hr>
+      <div class="examples">
+        <h2>Code examples</h2>
+        <pre class="examples-code">
+          <code>
+            function updateLight(current,green,yellow,red) {
+              if (current=="green"){
+                return "yellow"
+              } else if (current=="yellow"){
+                return "red"
+              } else{
+                return "green"
+              }
+          </code>
+        </pre>
+      </div>
+      <hr>
+    </section>
+  </main>
+  <footer class="footer">
+      <a href="https://rs.school/js/"><img src="./icons/rs_school_logo.svg" alt="rs school logo" class="rs_logo"></a>
+      <a href="#" class="footer_icon">2022</a>
+      <a href="https://github.com/damnmrg" class="footer_icon">GITHUB</a>
+  </footer>
+</div>
+</body>
+</html>

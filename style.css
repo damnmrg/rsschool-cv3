@@ -1,1 +1,122 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap');
 
+*, body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background-color: #404040;
+}
+main {
+  display: grid;
+  grid-template-columns: 33% 1fr;
+  margin: 3rem;
+}
+a {
+  text-decoration: none;
+}
+.navbar_icon {
+  font-size: 20px;
+  display: inline;
+  padding-left: 130px;
+}
+.navbar {
+  display: flex;
+  justify-content: center;
+  margin-top: 30px;
+}
+.navbar_icon {
+  color: beige;
+}
+.right {
+  background-color: white;
+  padding-left: 2rem;
+  padding-right: 2rem;
+  padding-top: 1rem;
+}
+.left {
+  background-color:white;
+}
+.left-img {
+  position: relative;
+}
+.left-img img {
+  width: 100%;
+}
+.left-img h1 {
+  position: absolute;
+  bottom: 0;
+  left: 1rem;
+}
+h1 {
+  color:beige;
+  padding-bottom: 10px;
+}
+li {
+  list-style-type: none;
+}
+.contacts, .skills, .languages {
+  padding: 1rem;
+}
+.contacts {
+  line-height: 2rem;
+  padding-bottom: 10px;
+}
+.skills, .languages {
+  line-height: 1rem;
+}
+.skills_list {
+  padding-top: 10px;
+}
+.languages_list {
+  padding-top: 10px;
+}
+.about {
+  line-height: 2rem;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  font-size: 20px;
+}
+.projecs {
+  line-height: 2rem;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  font-size: 20px;
+}
+.education {
+  line-height: 2rem;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  font-size: 20px;
+}
+.examples {
+  line-height: 2rem;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  font-size: 20px;
+}
+.examples-code {
+  line-height: normal;
+}
+.rs_logo {
+  width: 100px;
+  left: 100px;
+}
+.footer {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 10px;
+  margin-left: 40px;
+  margin-right: 40px;
+}
+.footer_icon {
+  color: beige;
+}
+i {
+  color: #404040;
+  margin-right: 0.5em;
+}
+progress {
+  color: #404040;
+}
